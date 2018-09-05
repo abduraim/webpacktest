@@ -4,13 +4,38 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abduraim/webpacktest.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abduraim/webpacktest/issues"
+  },
+  "homepage": "https://github.com/abduraim/webpacktest#readme",
   "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.7"
-  }
+    "webpack-dev-server": "^3.1.7",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {}
 }
