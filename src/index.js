@@ -1,3 +1,6 @@
 import './scss/style.scss';
+import './scss/body.scss';
 
-console.log('Hello, world 22!');
+console.log('Hello, world!');
+
+$('.test').css('color', 'green');
